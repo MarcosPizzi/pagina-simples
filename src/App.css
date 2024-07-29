@@ -1,0 +1,279 @@
+body {
+  overflow-x: hidden;
+}
+
+.imagem-fundo {
+  width: 100vw;
+}
+
+.float  {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.App {
+  width: 100vw;
+  height: 700px;
+}
+
+.cabeçalho {
+  height: 75px;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Roboto";
+  font-size: large;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: aqua;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: aqua;
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 42px;
+}
+
+.login {
+  padding: 12px 32px;
+  border-radius: 15px;
+  border: 0.5px solid #ffffff79;
+  font-family: "Roboto";
+  font-size: large;
+}
+
+.corpo {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: xx-large;
+  text-align: center;
+  color: white;
+  height: 50vh;
+  justify-content: center;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.start {
+  padding: 16px;
+  border-radius: 15px;
+  font-family: "Roboto";
+  font-size: large;
+  font-weight: 500;
+  color: #2B2073;
+  background-color: white;
+  border: none;
+}
+
+.segundo-corpo{
+  background: rgb(48,28,116);
+  background: linear-gradient(180deg, rgba(48,28,116,1) 0%, rgba(86,86,168,1) 50%, rgba(48,28,116,1) 100%);
+  padding: 0px 0px 500px 0px;
+  margin-top: -10px;
+
+}
+.segundo-texto{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-size: large;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  height: 50vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.segundo-texto h1{
+  margin-bottom: 0;
+}
+
+.segundo-texto h3{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-size: large;
+  font-size: small;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+}
+
+.colunas {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-size: large;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 400px;
+  padding: 0 200px;
+}
+
+.Coluna1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  width: 15vw;
+  gap: 20px;
+}
+
+.Coluna2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  width: 15vw;
+  text-align: left;
+}
+
+h4 {
+  font-family: "Playfair Display";
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.terceiro-corpo img {
+  width: 100vw;
+}
+
+.quarto-corpo {
+  background: rgb(48,28,116);
+  margin-top: -6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 20px;
+}
+
+.quarto-corpo img {
+  object-fit: contain;
+  width: 60%;
+  height: min-content;
+  border-radius: 20px;
+}
+
+.quarto-corpo h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-size: xx-large;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+
+.quinto-corpo {
+  background: rgb(48,28,116);
+  margin-top: -22px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.quinto-corpo h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-size: large;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  width: 20.5vw;
+  text-align: left;
+}
+
+.sexto-corpo {
+  display: flex;
+  flex-direction: row;
+  background: rgb(48,28,116);
+  margin-top: -22px;
+  justify-content: center;
+  gap: 24px;
+  height: 50vh;
+}
+
+.sexto-corpo > div {
+  background-color: #582c84;
+  border-radius: 16px;
+  width: 15vw;
+  height: 30vh;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sexto-corpo h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-size: xx-large;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  text-align: left;
+}
+
+.Bolinha {
+  width: 48px;
+  height: 48px;
+  border-radius: 999px;
+}
+
+.Bolinha[cor=verde] {
+  background-color: rgb(1, 92, 1);
+  }
+
+.Bolinha[cor=amarelo] {
+  background-color: rgb(190, 190, 85);
+}
+
+.Bolinha[cor=rosa] {
+  background-color: rgb(207, 102, 119);
+}
+
+.sexto-corpo h4 {
+  font-family: "Playfair Display";
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-size: small;
+  color: white;
+  width: 13vw;
+  height: 10vh;
+}
+.sexto-corpo h3 {
+  width: 14vw;
+  font-family: "Playfair Display";
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-size: small;
+  color: white;
+  height: 10vh;
+}
